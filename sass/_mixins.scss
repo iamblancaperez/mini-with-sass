@@ -1,0 +1,12 @@
+@mixin circulo($width){
+	width: $width;
+	height: $width;
+	border-radius: 50%;
+}
+
+@mixin boton($color, $br, $pad){
+	background-color: $color;
+	color: lighten($color, 50%);
+	border-radius: $br;
+	padding: $pad;
+}
